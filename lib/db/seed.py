@@ -21,7 +21,8 @@ def seed_data():
     users = [
         User(name="Alice Anderson", email="alice@example.com"),
         User(name="Bob Builder", email="bob@example.com"),
-        User(name="Nonnie Sankara",email="nonnie@gmail.com")
+        User(name="Nonnie Sankara",email="nonnie@gmail.com"),
+        User(name="Leslie Kogi", email="lesliekogi@gmail.com")
     ]
 
     # Add exercisesto the table

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import click
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -190,6 +191,6 @@ def init_db():
     Base.metadata.create_all(engine)
     click.echo("Database initialized.")
 
-# FIXED MAIN CHECK:
-if _name_ == '_main_':
+
+if __name__ == "__main__":
     cli()
